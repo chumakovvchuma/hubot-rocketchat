@@ -1,0 +1,24 @@
+{
+	"apps": [{
+		"name": "hubot",
+		"max_memory_restart": "1024M",
+		"log_date_format": "YYYY-MM-DD HH:mm:ss SSS",
+		"script": "bin/hubot ",
+		"exec_interpreter": "bash",
+		"args": "--name hubot --adapter rocketchat",
+		"watch": ["package.json", "external-scripts.json", "scripts/", "hubot-scripts.json"],
+		"out_file": "/var/log/hubot/app.log",
+		"error_file": "/var/log/hubot/err.log",
+		"port": "8079",
+		"env": {
+			"ROCKETCHAT_URL": "40.69.16.107:3000",
+			"ROCKETCHAT_USER": "wisebot",
+			"ROCKETCHAT_ROOM": "GENERAL",
+			"ROCKETCHAT_PASSWORD": "wisepass",
+			"ROCKETCHAT_USESSL": "true",
+			"PORT": "8079",
+			"RESPOND_TO_LIVECHAT": "true",
+			"GOOGLE_API_KEY": "AIzaSyDDCRToGRnYLsUtogfxIBB5KTK9O6nQPXg",
+			"HUBOT_NAME": "wisebot"		}
+	}]
+}

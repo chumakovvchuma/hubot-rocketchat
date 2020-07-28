@@ -46,7 +46,19 @@
   "main": "index.js",
   "dependencies": {
     "@rocket.chat/sdk": "^0.2.1",
-    "hubot": "3"
+    "hubot": "3",
+    "hubot-rocketchat": "latest",
+    "hubot-scripts": "latest",
+    "hubot-help": "latest",
+    "hubot-calculator": "latest",
+    "hubot-diagnostics": "latest",
+    "hubot-google-hangouts": "latest",
+    "hubot-google-images": "latest",
+    "hubot-maps": "latest",
+    "hubot-pugme": "latest",
+    "hubot-redis-brain": "latest",
+    "hubot-rules": "latest",
+    "hubot-youtube": "latest"
   },
   "peerDependencies": {
     "hubot": "3"
